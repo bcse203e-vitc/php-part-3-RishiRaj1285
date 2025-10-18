@@ -1,5 +1,4 @@
 <?php
-// save as visits.php
 $count = 1;
 if (isset($_COOKIE['visits'])) {
     $count = intval($_COOKIE['visits']) + 1;
